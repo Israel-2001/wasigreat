@@ -1,14 +1,11 @@
 // ========================
 // DO NOT EDIT THIS BLOCK
-const assignment = {};
+const assignment = {} 
 // ========================
 
 /**
  * Challenge - 1
 
-
- * @param {Number} destination is the stopping number
- * @returns number the sum of the numbers from 1 to destination
  */
 
     function sumOfNumbersTo(arr) {
@@ -26,14 +23,11 @@ const assignment = {};
     const sum = sumOfNumbersTo(array)
 
 
-// assignment.sumOfNumbersTo = sumOfNumbersTo;
+ assignment.sumOfNumbersTo = sumOfNumbersTo;
 
 /**
  * Challenge - 2
 
-
- * @param {Number} destination the stopping number
- * @returns the object containing count, sum, arrayOfEvenNumbers from 1 to destination
  */
     function countEvenNumbersWithin(arr) {
       let count = 0;
@@ -56,17 +50,11 @@ const assignment = {};
         sum,
         arrayOfEvenNumbers
 
-// assignment.countEvenNumbersWithin = countEvenNumbersWithin;
+ assignment.countEvenNumbersWithin = countEvenNumbersWithin;
 
 /**
  * Challenge - 3
- *
 
- 
- * See https://www.thoughtco.com/celcius-to-farenheit-formula-609227 for the conversion formula
- *
- * @param {Array} arrayOfNumbers the array containing temperatures in Celsius to be converted
- * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(celsiusTemps) {
     const fahrenheitTemps = celsiusTemps.map(tempC =>Math.round(tempC * 9/5 +32));
@@ -77,7 +65,7 @@ const fahrenheitTemperatures = celsiusToFahrenheit(celsiusTemperatures)
 console.log(fahrenheitTemperatures);
 
 
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+ assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 // ========================
 // DO NOT EDIT THIS BLOCK

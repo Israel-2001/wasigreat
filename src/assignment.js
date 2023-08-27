@@ -1,6 +1,6 @@
 // ========================
 // DO NOT EDIT THIS BLOCK
-const assignment = {} 
+const assignment = {
 // ========================
 
 /**
@@ -17,7 +17,7 @@ const assignment = {}
     }
 
     const  array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-    for(let i = 0; i < 10; i++){
+    for(let i = 0; i < 99; i++){
       array;
     }
     const sum = sumOfNumbersTo(array)
@@ -66,6 +66,8 @@ console.log(fahrenheitTemperatures);
 
 
  assignment.celsiusToFahrenheit = celsiusToFahrenheit;
+
+} 
 
 // ========================
 // DO NOT EDIT THIS BLOCK

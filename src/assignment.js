@@ -29,7 +29,7 @@ const assignment = {}
  * Challenge - 2
 
  */
-    function countEvenNumbersWithin(arr) {
+    function countEvenNumbers(arr) {
       let count = 0;
       for (let i = 0; i < arr.length; i++) {
         if(arr[i] % 2 === 0) {
@@ -40,7 +40,7 @@ const assignment = {}
     }
 
     const numberArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    const evenCount = countEvenNumbersWithin(numberArray);
+    const evenCount = countEvenNumbers(numberArray);
     console.log(evenCount)
 
         // property value shorthand
@@ -50,7 +50,7 @@ const assignment = {}
         sum,
         arrayOfEvenNumbers
 
- assignment.countEvenNumbersWithin = countEvenNumbersWithin;
+ assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3

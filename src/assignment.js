@@ -18,7 +18,7 @@ const assignment = {}
 
     const  array = [1, 2, 3, 4, 5, 6, 7, 8, 9];
     for(let i = 0; i < 10; i++){
-      randomArray;
+      array;
     }
     const sum = sumOfNumbersTo(array)
 
@@ -60,7 +60,7 @@ function celsiusToFahrenheit(celsiusTemps) {
     const fahrenheitTemps = celsiusTemps.map(tempC =>Math.round(tempC * 9/5 +32));
     return fahrenheitTemps;
 }
-const celsiusTemperatures = [25,15,30,10];
+const celsiusTemperatures = [1,2,3,4,5,6,7,8,9,10];
 const fahrenheitTemperatures = celsiusToFahrenheit(celsiusTemperatures)
 console.log(fahrenheitTemperatures);
 
